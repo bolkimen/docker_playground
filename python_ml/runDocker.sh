@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker run -it bolkimen/pythonml python
+docker run -it -v "$PWD"/volume:/files bolkimen/pythonml python /files/app.py
 
