@@ -1,2 +1,4 @@
-FROM scratch
-#echo "Hello world"
+#FROM scratch
+
+FROM alpine  
+ENTRYPOINT ls /usr
